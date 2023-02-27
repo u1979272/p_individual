@@ -1,10 +1,17 @@
+html{
+	background-color: rgb(64, 95, 52);
+	font-family: fantasy;
+}
+
 #title{
-	font-size: 26px;
+	font-family: fantasy;
+	font-size: 30px;
 	line-height: 75px;
+	color: white
 }
 
 .menu-object{
-	display:block;
+	display:grid;
 	margin-left: auto;
 	margin-right: auto;
 	width: 300px;
@@ -17,7 +24,13 @@ p{
 	text-align: center;
 }
 
+button{
+	background-color: rgb(206, 238, 147);
+
+}
+
 button.menu-object:active{
+	
 	font-size: 18px;
 	width: 275px;
 	height: 70px;
