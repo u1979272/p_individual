@@ -15,4 +15,6 @@ function options(){
 	console.log("Options menu button");
 }
 
-
+function go_to_practica2(){
+	loadpage("pi_2/index.html");
+}
