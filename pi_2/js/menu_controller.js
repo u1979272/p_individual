@@ -19,3 +19,11 @@ function options(){
 function go_to_practica2(){
 	loadpage("pi_2/index.html");
 }
+
+function exit_from_game(){
+	if (name != ""){
+		alert("Leaving " + name + "'s game");
+	}
+	name = "";
+	loadpage("../index.html");
+}
