@@ -18,7 +18,7 @@ function options(){
 	loadpage("./html/options.html");
 }
 
-function go_to_practica3(){
+function go_to_treball_indiv(){
 	loadpage("pi_3/index.html");
 }
 
