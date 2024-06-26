@@ -1,17 +1,17 @@
 <!DOCTYPE html> 
 <html>
 	<head>
+		<link rel="stylesheet" href="./styles/menu.css">
 		<script src="./js/loaduuid.js" type="module"></script>
-		<script src="./js/menu.js"></script>
-		<link rel="stylesheet" 
-			href="./styles/menu.css">
-		<title> Memory - Menú </title>
+		<script src="./js/menu.js"></script>	
+		<title> Memento Menu </title>
 	</head>
 	<body>
-		<h1 id="title">Menú</h1>
-		<button id="play" class="center"> Jugar </button>
-		<button id="options" class="center"> Opcions </button>
-		<button id="saves" class="center"> Partides </button>
-		<button id="exit" class="center"> Sortir </button>
+		<p class="menu-object" id="title">Menu</p>
+		<button id="play" class="menu-object" onclick="start_game()"> Play </button>
+		<button id="scores" class="menu-object" onclick="scores()"> Top Scores </button>
+		<button id="options" class="menu-object" onclick="options()"> Options </button>
+		<button id="saves" class="menu-object" onclick="saves()"> Load Games </button>
+		<button id="exit" class="menu-object" onclick="exit()"> Exit </button>
 	</body>
 </html>
