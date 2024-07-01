@@ -1,8 +1,10 @@
 import { PlayScene } from "./scene.js";
 
 var config = {
+    title: 'Card Memory Game',
     type: Phaser.AUTO,
     domCreateContainer: true,
+    backgroundcolor: "#BFFCFF",
     width: 800,
     height: 600,
     parent: 'game',

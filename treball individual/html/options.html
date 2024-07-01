@@ -1,21 +1,22 @@
 <!DOCTYPE html> 
 <html>
 	<head>
+        <link rel="stylesheet" href="./styles/menu.css">
         <script src="../library/jquery.min.js"></script>
         <script src="../js/options.js" type="module"></script>
-		<title> Memory - Opcions </title>
+		<title> Memory - Options </title>
 	</head>
 	<body>
-		<h1>Opcions</h1>
-        <label for="pairs">Número de cartes</label>
-        <input type="number" id="pairs" value="2" min="2" max="6">
-        <label for="dif">Dificultat</label>
+		<h1>Options</h1>
+        <label for="pairs">Number of cards</label>
+        <input type="number" id="pairs" value="2" min="2" max="20">
+        <label for="dif">Difficulty</label>
         <select id="dif">
-            <option value="easy">Baixa</option>
+            <option value="easy">Easy</option>
             <option value="normal" selected>Normal</option>
-            <option value="hard">Alta</option>
+            <option value="hard">Hard</option>
         </select>
-        <button id="default">Per defecte</button>
-        <button id="apply">Aplicar</button>
+        <button id="default">Default</button>
+        <button id="apply">Apply</button>
 	</body>
 </html>
